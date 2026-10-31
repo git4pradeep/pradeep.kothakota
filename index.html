@@ -3,496 +3,437 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pradeepkumar Kothakota - Senior Data Engineer</title>
-    <link rel="stylesheet" href="styles.css">
+    <meta name="description" content="Pradeep Kothakota - Senior Data Engineer. Snowflake, dbt, IDMC and cloud data platforms for enterprise clients.">
+    <title>Pradeep Kothakota | Senior Data Engineer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<body id="top">
+    <a class="skip-link" href="#main">Skip to content</a>
+
     <!-- Navigation -->
-    <nav class="navbar">
-        <div class="container">
-            <div class="navbar-brand">
-                <span class="logo-icon"><i class="fas fa-database"></i></span>
-                <span>Pradeep Kothakota</span>
-            </div>
-            <ul class="nav-links">
+    <header class="site-header">
+        <nav class="container nav" aria-label="Main navigation">
+            <a href="#top" class="brand" aria-label="Back to top">
+                <span class="brand-mark"><i class="fas fa-database"></i></span>
+                <span class="brand-text">pradeep<span class="accent">.data</span></span>
+            </a>
+
+            <ul class="nav-links" id="nav-links">
                 <li><a href="#about">About</a></li>
                 <li><a href="#expertise">Expertise</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Work</a></li>
+                <li><a href="#experience">Journey</a></li>
+                <li><a href="#certifications">Credentials</a></li>
             </ul>
-        </div>
-    </nav>
 
-    <!-- Hero Section -->
-    <section class="hero" id="about">
-        <div class="container">
-            <div class="hero-content">
-                <div class="hero-text">
-                    <h1>Senior Data Engineer</h1>
-                    <p class="hero-subtitle">Building Modern Cloud Data Platforms</p>
-                    <p class="hero-description">
-                        Architecting scalable ELT pipelines and modernizing legacy data systems for enterprise clients.
-                        18+ years of expertise in Snowflake, dbt, and cloud data platforms.
+            <div class="nav-actions">
+                <button class="icon-btn" id="theme-toggle" type="button" aria-label="Toggle dark mode">
+                    <i class="fas fa-moon" aria-hidden="true"></i>
+                </button>
+                <a href="#contact" class="btn btn-small">Let's talk</a>
+                <button class="icon-btn menu-btn" id="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="Open menu">
+                    <i class="fas fa-bars" aria-hidden="true"></i>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main id="main">
+        <!-- Hero -->
+        <section class="hero" aria-labelledby="hero-title">
+            <div class="container hero-grid">
+                <div class="hero-copy reveal">
+                    <p class="eyebrow"><span class="dot"></span> Senior Data Engineer &middot; Cloud Data Platforms</p>
+                    <h1 id="hero-title">Build data platforms that <em>scale</em> with your business.</h1>
+                    <p class="lead">
+                        18+ years designing ELT pipelines and modernising legacy warehouses for enterprise clients.
+                        Hands-on with Snowflake, dbt, IDMC and cloud data platforms.
                     </p>
-                    <div class="hero-buttons">
-                        <a href="#projects" class="btn btn-primary">View Projects</a>
-                        <a href="#contact" class="btn btn-secondary">Get in Touch</a>
-                    </div>
-                    <div class="hero-stats-grid">
-                        <div class="stat-box">
-                            <div class="stat-number">18+</div>
-                            <div class="stat-label">Years Experience</div>
-                        </div>
-                        <div class="stat-box">
-                            <div class="stat-number">50+</div>
-                            <div class="stat-label">Projects Delivered</div>
-                        </div>
-                        <div class="stat-box">
-                            <div class="stat-number">5</div>
-                            <div class="stat-label">Cloud Certifications</div>
-                        </div>
-                        <div class="stat-box">
-                            <div class="stat-number">100%</div>
-                            <div class="stat-label">Client Satisfaction</div>
-                        </div>
+                    <div class="hero-actions">
+                        <a href="#projects" class="btn btn-primary">Explore my work <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+                        <a href="#contact" class="btn btn-ghost">Start a conversation</a>
                     </div>
                 </div>
-                <div class="hero-image">
-                    <img src="profile.jpg" alt="Pradeepkumar Kothakota - Senior Data Engineer">
-                </div>
-            </div>
-        </div>
-    </section>
 
-    <!-- Expertise Section -->
-    <section class="expertise" id="expertise">
-        <div class="container">
-            <div class="section-header">
-                <h2>Core Expertise</h2>
-                <p>Specialized services and capabilities</p>
-            </div>
-
-            <div class="expertise-grid">
-                <div class="expertise-card">
-                    <div class="expertise-icon">
+                <div class="hero-visual reveal">
+                    <div class="photo-frame">
+                        <img src="profile.jpg" alt="Portrait of Pradeep Kothakota" width="400" height="400">
+                    </div>
+                    <div class="floating-card" aria-hidden="true">
                         <i class="fas fa-snowflake"></i>
+                        <div>
+                            <strong>SnowPro Advanced</strong>
+                            <span>Data Engineer</span>
+                        </div>
                     </div>
-                    <h3>Cloud Data Platforms</h3>
-                    <p>Expert in Snowflake, Databricks, Microsoft Fabric, and AWS. Design and optimize cloud-native data solutions.</p>
-                    <ul class="expertise-list">
-                        <li>Snowflake Architecture</li>
-                        <li>Performance Optimization</li>
-                        <li>Cost Management</li>
-                        <li>Data Governance</li>
-                    </ul>
                 </div>
+            </div>
 
-                <div class="expertise-card">
-                    <div class="expertise-icon">
-                        <i class="fas fa-code-branch"></i>
-                    </div>
-                    <h3>ELT & Transformation</h3>
-                    <p>Build scalable data transformation pipelines using dbt, Python, and PySpark following best practices.</p>
-                    <ul class="expertise-list">
-                        <li>dbt Development</li>
-                        <li>Data Modeling</li>
-                        <li>Incremental Loads</li>
-                        <li>CDC Implementation</li>
-                    </ul>
+            <div class="container">
+                <ul class="stats reveal" aria-label="Highlights">
+                    <li><span class="stat-num">18+</span><span class="stat-label">Years in data engineering</span></li>
+                    <li><span class="stat-num">5</span><span class="stat-label">Active cloud certifications</span></li>
+                    <li><span class="stat-num">3</span><span class="stat-label">Major cloud platforms</span></li>
+                    <li><span class="stat-num">2</span><span class="stat-label">Large-scale legacy migrations</span></li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- About -->
+        <section class="section" id="about" aria-labelledby="about-title">
+            <div class="container split">
+                <div class="reveal">
+                    <p class="eyebrow">About</p>
+                    <h2 id="about-title">From legacy ETL to modern cloud data platforms.</h2>
                 </div>
-
-                <div class="expertise-card">
-                    <div class="expertise-icon">
-                        <i class="fas fa-exchange-alt"></i>
-                    </div>
-                    <h3>Data Migration</h3>
-                    <p>Lead large-scale migrations from legacy systems (PowerCenter, Sybase IQ) to modern cloud platforms.</p>
-                    <ul class="expertise-list">
-                        <li>PowerCenter to IDMC</li>
-                        <li>Sybase IQ to Snowflake</li>
-                        <li>Zero-Downtime Migration</li>
-                        <li>Testing Strategy</li>
-                    </ul>
-                </div>
-
-                <div class="expertise-card">
-                    <div class="expertise-icon">
-                        <i class="fas fa-cogs"></i>
-                    </div>
-                    <h3>ETL Orchestration</h3>
-                    <p>Design robust data pipelines with IDMC, Airflow, and Control-M. Implement CI/CD for data workflows.</p>
-                    <ul class="expertise-list">
-                        <li>IDMC Integration</li>
-                        <li>Apache Airflow</li>
-                        <li>CI/CD Pipelines</li>
-                        <li>Monitoring & Alerting</li>
-                    </ul>
-                </div>
-
-                <div class="expertise-card">
-                    <div class="expertise-icon">
-                        <i class="fas fa-chart-line"></i>
-                    </div>
-                    <h3>Real-Time Analytics</h3>
-                    <p>Implement near real-time data ingestion using CDC tools like HVR for instant business insights.</p>
-                    <ul class="expertise-list">
-                        <li>HVR CDC</li>
-                        <li>Streaming Data</li>
-                        <li>Real-Time Analytics</li>
-                        <li>Low-Latency Pipelines</li>
-                    </ul>
-                </div>
-
-                <div class="expertise-card">
-                    <div class="expertise-icon">
-                        <i class="fas fa-shield-alt"></i>
-                    </div>
-                    <h3>Data Quality & Governance</h3>
-                    <p>Ensure data accuracy and compliance with robust quality frameworks and governance practices.</p>
-                    <ul class="expertise-list">
-                        <li>Data Quality Tests</li>
-                        <li>Metadata Management</li>
-                        <li>Compliance & Auditing</li>
-                        <li>Documentation</li>
+                <div class="reveal">
+                    <p>
+                        I've spent most of my career turning fragmented data estates into reliable, well-modelled platforms.
+                        I started with Informatica PowerCenter on enterprise data warehouses, then moved into cloud work with
+                        Snowflake, dbt and Airflow.
+                    </p>
+                    <p>
+                        My recent work focuses on migrations (Sybase IQ and PowerCenter to Snowflake and IDMC), real-time CDC
+                        with HVR, and semantic layers that give business teams one source of truth.
+                    </p>
+                    <ul class="meta-list">
+                        <li><i class="fas fa-location-dot" aria-hidden="true"></i> United States</li>
+                        <li><i class="fas fa-id-card" aria-hidden="true"></i> H1B, valid until Nov 15, 2026</li>
+                        <li><i class="fas fa-briefcase" aria-hidden="true"></i> Enterprise, retail, insurance and media</li>
                     </ul>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Skills Section -->
-    <section class="skills" id="skills">
-        <div class="container">
-            <div class="section-header">
-                <h2>Technical Skills</h2>
-                <p>Technologies and tools mastery</p>
-            </div>
+        <!-- Expertise -->
+        <section class="section section-alt" id="expertise" aria-labelledby="expertise-title">
+            <div class="container">
+                <header class="section-head reveal">
+                    <p class="eyebrow">Expertise</p>
+                    <h2 id="expertise-title">Practical expertise for modern data teams.</h2>
+                </header>
 
-            <div class="skills-grid">
-                <div class="skill-category">
-                    <h3><i class="fas fa-cloud"></i> Cloud Platforms</h3>
-                    <div class="skills-tags">
-                        <span class="skill-tag">Snowflake</span>
-                        <span class="skill-tag">Databricks</span>
-                        <span class="skill-tag">Microsoft Fabric</span>
-                        <span class="skill-tag">AWS S3</span>
-                        <span class="skill-tag">Azure Data Lake</span>
-                    </div>
-                </div>
+                <div class="cards">
+                    <article class="card reveal">
+                        <div class="card-icon"><i class="fas fa-snowflake" aria-hidden="true"></i></div>
+                        <h3>Cloud Data Platforms</h3>
+                        <p>Snowflake, Databricks and Microsoft Fabric design, with performance and cost tuning built in.</p>
+                        <ul class="tags">
+                            <li>Architecture</li><li>Performance</li><li>Cost management</li><li>Governance</li>
+                        </ul>
+                    </article>
 
-                <div class="skill-category">
-                    <h3><i class="fas fa-exchange-alt"></i> ETL & Orchestration</h3>
-                    <div class="skills-tags">
-                        <span class="skill-tag">dbt</span>
-                        <span class="skill-tag">IDMC</span>
-                        <span class="skill-tag">PowerCenter</span>
-                        <span class="skill-tag">Airflow</span>
-                        <span class="skill-tag">HVR CDC</span>
-                        <span class="skill-tag">Control-M</span>
-                    </div>
-                </div>
+                    <article class="card reveal">
+                        <div class="card-icon"><i class="fas fa-code-branch" aria-hidden="true"></i></div>
+                        <h3>ELT &amp; Transformation</h3>
+                        <p>Layered dbt projects, incremental loads and CDC pipelines that stay easy to test and maintain.</p>
+                        <ul class="tags">
+                            <li>dbt</li><li>Data modelling</li><li>Incremental loads</li><li>CDC</li>
+                        </ul>
+                    </article>
 
-                <div class="skill-category">
-                    <h3><i class="fas fa-code"></i> Languages</h3>
-                    <div class="skills-tags">
-                        <span class="skill-tag">SQL</span>
-                        <span class="skill-tag">Python</span>
-                        <span class="skill-tag">PySpark</span>
-                        <span class="skill-tag">Jinja</span>
-                    </div>
-                </div>
+                    <article class="card reveal">
+                        <div class="card-icon"><i class="fas fa-right-left" aria-hidden="true"></i></div>
+                        <h3>Data Migration</h3>
+                        <p>Moving legacy workloads to the cloud with parallel runs, reconciliation and minimal downtime.</p>
+                        <ul class="tags">
+                            <li>PowerCenter to IDMC</li><li>Sybase IQ to Snowflake</li><li>Zero downtime</li><li>Testing strategy</li>
+                        </ul>
+                    </article>
 
-                <div class="skill-category">
-                    <h3><i class="fas fa-database"></i> Databases</h3>
-                    <div class="skills-tags">
-                        <span class="skill-tag">Oracle</span>
-                        <span class="skill-tag">SQL Server</span>
-                        <span class="skill-tag">Teradata</span>
-                        <span class="skill-tag">Sybase IQ</span>
-                        <span class="skill-tag">HP Vertica</span>
-                    </div>
-                </div>
+                    <article class="card reveal">
+                        <div class="card-icon"><i class="fas fa-diagram-project" aria-hidden="true"></i></div>
+                        <h3>Orchestration &amp; CI/CD</h3>
+                        <p>Reliable scheduling and automated deployments for data workflows across IDMC, Airflow and Control-M.</p>
+                        <ul class="tags">
+                            <li>IDMC</li><li>Airflow</li><li>Control-M</li><li>Azure DevOps</li>
+                        </ul>
+                    </article>
 
-                <div class="skill-category">
-                    <h3><i class="fas fa-tools"></i> Data Tools</h3>
-                    <div class="skills-tags">
-                        <span class="skill-tag">dbt Cloud</span>
-                        <span class="skill-tag">Informatica</span>
-                        <span class="skill-tag">Azure DevOps</span>
-                        <span class="skill-tag">Git</span>
-                        <span class="skill-tag">Power BI</span>
-                    </div>
-                </div>
+                    <article class="card reveal">
+                        <div class="card-icon"><i class="fas fa-bolt" aria-hidden="true"></i></div>
+                        <h3>Real-Time Ingestion</h3>
+                        <p>Near real-time pipelines with HVR CDC, delivering fresh data for reporting and operational analytics.</p>
+                        <ul class="tags">
+                            <li>HVR CDC</li><li>Streaming</li><li>Low latency</li>
+                        </ul>
+                    </article>
 
-                <div class="skill-category">
-                    <h3><i class="fas fa-shield-alt"></i> Data Governance</h3>
-                    <div class="skills-tags">
-                        <span class="skill-tag">Data Quality</span>
-                        <span class="skill-tag">Metadata Manager</span>
-                        <span class="skill-tag">Microsoft Purview</span>
-                        <span class="skill-tag">ERWIN</span>
-                    </div>
+                    <article class="card reveal">
+                        <div class="card-icon"><i class="fas fa-shield-halved" aria-hidden="true"></i></div>
+                        <h3>Quality &amp; Governance</h3>
+                        <p>Quality frameworks, metadata management and documentation so the next engineer can pick things up quickly.</p>
+                        <ul class="tags">
+                            <li>Data quality tests</li><li>Metadata</li><li>Purview</li><li>Documentation</li>
+                        </ul>
+                    </article>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Projects Section -->
-    <section class="projects" id="projects">
-        <div class="container">
-            <div class="section-header">
-                <h2>Featured Projects</h2>
-                <p>Showcase of recent work and accomplishments</p>
-            </div>
+        <!-- Skills -->
+        <section class="section" id="skills" aria-labelledby="skills-title">
+            <div class="container">
+                <header class="section-head reveal">
+                    <p class="eyebrow">Skills</p>
+                    <h2 id="skills-title">Tools I use every day.</h2>
+                </header>
 
-            <div class="projects-grid">
-                <div class="project-card">
-                    <div class="project-badge">Current</div>
-                    <h3>Lyric.ai - ELT Pipeline Modernization</h3>
-                    <p class="project-role">Senior Data Engineer | Jan 2026 - Present</p>
-                    <p class="project-desc">Designed and deployed scalable ELT data pipelines using Snowflake, dbt, and Apache Airflow to enable advanced analytics and real-time reporting.</p>
-                    <div class="tech-stack">
-                        <span class="tech-item">Snowflake</span>
-                        <span class="tech-item">dbt</span>
-                        <span class="tech-item">Airflow</span>
-                        <span class="tech-item">AWS S3</span>
+                <div class="skill-grid">
+                    <div class="skill-group reveal">
+                        <h3><i class="fas fa-cloud" aria-hidden="true"></i> Cloud Platforms</h3>
+                        <div class="chips">
+                            <span>Snowflake</span><span>Databricks</span><span>Microsoft Fabric</span><span>AWS S3</span><span>Azure Data Lake</span>
+                        </div>
                     </div>
-                </div>
-
-                <div class="project-card">
-                    <div class="project-badge">Recent</div>
-                    <h3>SKF - Data Warehouse Migration</h3>
-                    <p class="project-role">Senior Data Engineer | Jul 2021 - Aug 2025</p>
-                    <p class="project-desc">Led large-scale migration from Sybase IQ to Snowflake, transforming legacy EDW architecture to modern ELT approach with dbt and real-time CDC pipelines.</p>
-                    <div class="tech-stack">
-                        <span class="tech-item">Snowflake</span>
-                        <span class="tech-item">dbt</span>
-                        <span class="tech-item">IDMC</span>
-                        <span class="tech-item">HVR</span>
+                    <div class="skill-group reveal">
+                        <h3><i class="fas fa-arrows-rotate" aria-hidden="true"></i> ETL &amp; Orchestration</h3>
+                        <div class="chips">
+                            <span>dbt</span><span>IDMC</span><span>PowerCenter</span><span>Airflow</span><span>HVR CDC</span><span>Control-M</span>
+                        </div>
                     </div>
-                </div>
-
-                <div class="project-card">
-                    <div class="project-badge">Recent</div>
-                    <h3>PowerCenter to IDMC Migration</h3>
-                    <p class="project-role">Senior Data Engineer | Jul 2021 - Aug 2025</p>
-                    <p class="project-desc">Architected and executed complete migration of data integration workloads from Informatica PowerCenter to cloud-based IDMC platform with zero-touch deployments.</p>
-                    <div class="tech-stack">
-                        <span class="tech-item">IDMC</span>
-                        <span class="tech-item">PowerCenter</span>
-                        <span class="tech-item">Azure DevOps</span>
-                        <span class="tech-item">Git</span>
+                    <div class="skill-group reveal">
+                        <h3><i class="fas fa-code" aria-hidden="true"></i> Languages</h3>
+                        <div class="chips">
+                            <span>SQL</span><span>Python</span><span>PySpark</span><span>Jinja</span>
+                        </div>
                     </div>
-                </div>
-
-                <div class="project-card">
-                    <div class="project-badge">Delivered</div>
-                    <h3>Tailored Brands - Retail Analytics</h3>
-                    <p class="project-role">Senior Data Engineer | Sep 2025 - Jan 2026</p>
-                    <p class="project-desc">Built Single Source of Truth semantic layer in Snowflake for enterprise retail reporting with real-time CDC pipelines and advanced data modeling.</p>
-                    <div class="tech-stack">
-                        <span class="tech-item">Snowflake</span>
-                        <span class="tech-item">dbt</span>
-                        <span class="tech-item">HVR</span>
-                        <span class="tech-item">UC4 Automic</span>
+                    <div class="skill-group reveal">
+                        <h3><i class="fas fa-table" aria-hidden="true"></i> Databases</h3>
+                        <div class="chips">
+                            <span>Oracle</span><span>SQL Server</span><span>Teradata</span><span>Sybase IQ</span><span>HP Vertica</span>
+                        </div>
                     </div>
-                </div>
-
-                <div class="project-card">
-                    <div class="project-badge">Delivered</div>
-                    <h3>Church Mutual Insurance - ETL Platform</h3>
-                    <p class="project-role">Informatica Developer | Jan 2019 - Jul 2021</p>
-                    <p class="project-desc">Designed comprehensive ETL platform with real-time CDC capabilities for insurance data processing, ODS, EDW, and Data Mart layers.</p>
-                    <div class="tech-stack">
-                        <span class="tech-item">PowerCenter</span>
-                        <span class="tech-item">Power Exchange CDC</span>
-                        <span class="tech-item">SQL Server</span>
-                        <span class="tech-item">Control-M</span>
+                    <div class="skill-group reveal">
+                        <h3><i class="fas fa-screwdriver-wrench" aria-hidden="true"></i> Data Tools</h3>
+                        <div class="chips">
+                            <span>dbt Cloud</span><span>Informatica</span><span>Azure DevOps</span><span>Git</span><span>Power BI</span>
+                        </div>
                     </div>
-                </div>
-
-                <div class="project-card">
-                    <div class="project-badge">Delivered</div>
-                    <h3>Univision Communications - Data Warehouse</h3>
-                    <p class="project-role">Informatica Developer | Jan 2017 - Jan 2019</p>
-                    <p class="project-desc">Built enterprise data warehouse supporting media analytics and content distribution reporting with robust data governance and metadata management.</p>
-                    <div class="tech-stack">
-                        <span class="tech-item">PowerCenter</span>
-                        <span class="tech-item">Metadata Manager</span>
-                        <span class="tech-item">Data Quality</span>
-                        <span class="tech-item">Oracle</span>
+                    <div class="skill-group reveal">
+                        <h3><i class="fas fa-shield-halved" aria-hidden="true"></i> Governance</h3>
+                        <div class="chips">
+                            <span>Data Quality</span><span>Metadata Manager</span><span>Microsoft Purview</span><span>ERWIN</span>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Experience Section -->
-    <section class="experience" id="experience">
-        <div class="container">
-            <div class="section-header">
-                <h2>Professional Experience</h2>
-                <p>Career progression and milestones</p>
+        <!-- Projects -->
+        <section class="section section-alt" id="projects" aria-labelledby="projects-title">
+            <div class="container">
+                <header class="section-head reveal">
+                    <p class="eyebrow">Work</p>
+                    <h2 id="projects-title">Selected projects.</h2>
+                </header>
+
+                <div class="filters reveal" role="group" aria-label="Filter projects by technology">
+                    <button class="filter active" type="button" data-filter="all">All</button>
+                    <button class="filter" type="button" data-filter="snowflake">Snowflake</button>
+                    <button class="filter" type="button" data-filter="dbt">dbt</button>
+                    <button class="filter" type="button" data-filter="informatica">Informatica / IDMC</button>
+                    <button class="filter" type="button" data-filter="cdc">CDC</button>
+                </div>
+
+                <div class="project-grid">
+                    <article class="project reveal" data-tags="snowflake dbt">
+                        <div class="project-top">
+                            <span class="badge badge-current">Current</span>
+                            <span class="project-date">Jan 2026 &ndash; Present</span>
+                        </div>
+                        <h3>Lyric.ai &middot; ELT Pipeline Modernisation</h3>
+                        <p class="project-role">Senior Data Engineer</p>
+                        <p>Designed and deployed scalable ELT pipelines with Snowflake, dbt and Apache Airflow to power analytics and real-time reporting.</p>
+                        <ul class="tags"><li>Snowflake</li><li>dbt</li><li>Airflow</li><li>AWS S3</li></ul>
+                    </article>
+
+                    <article class="project reveal" data-tags="snowflake dbt cdc">
+                        <div class="project-top">
+                            <span class="badge badge-recent">Recent</span>
+                            <span class="project-date">Jul 2021 &ndash; Aug 2025</span>
+                        </div>
+                        <h3>SKF &middot; Data Warehouse Migration</h3>
+                        <p class="project-role">Senior Data Engineer &middot; Luxoft (DXC)</p>
+                        <p>Led the migration from Sybase IQ to Snowflake, moving a legacy EDW to an ELT approach with dbt and real-time CDC pipelines.</p>
+                        <ul class="tags"><li>Snowflake</li><li>dbt</li><li>IDMC</li><li>HVR</li></ul>
+                    </article>
+
+                    <article class="project reveal" data-tags="informatica">
+                        <div class="project-top">
+                            <span class="badge badge-recent">Recent</span>
+                            <span class="project-date">Jul 2021 &ndash; Aug 2025</span>
+                        </div>
+                        <h3>PowerCenter to IDMC Migration</h3>
+                        <p class="project-role">Senior Data Engineer &middot; Luxoft (DXC)</p>
+                        <p>Architected the move of integration workloads from Informatica PowerCenter to cloud-based IDMC, with zero-touch deployments.</p>
+                        <ul class="tags"><li>IDMC</li><li>PowerCenter</li><li>Azure DevOps</li><li>Git</li></ul>
+                    </article>
+
+                    <article class="project reveal" data-tags="snowflake dbt cdc">
+                        <div class="project-top">
+                            <span class="badge badge-done">Delivered</span>
+                            <span class="project-date">Sep 2025 &ndash; Jan 2026</span>
+                        </div>
+                        <h3>Tailored Brands &middot; Retail Analytics</h3>
+                        <p class="project-role">Senior Data Engineer</p>
+                        <p>Built a Single Source of Truth semantic layer in Snowflake for enterprise retail reporting, with real-time CDC pipelines.</p>
+                        <ul class="tags"><li>Snowflake</li><li>dbt</li><li>HVR</li><li>UC4 Automic</li></ul>
+                    </article>
+
+                    <article class="project reveal" data-tags="informatica">
+                        <div class="project-top">
+                            <span class="badge badge-done">Delivered</span>
+                            <span class="project-date">Jan 2019 &ndash; Jul 2021</span>
+                        </div>
+                        <h3>Church Mutual Insurance &middot; ETL Platform</h3>
+                        <p class="project-role">Informatica Developer &middot; TEKsystems</p>
+                        <p>Designed an ETL platform with real-time CDC for insurance data, covering ODS, EDW and Data Mart layers.</p>
+                        <ul class="tags"><li>PowerCenter</li><li>Power Exchange CDC</li><li>SQL Server</li><li>Control-M</li></ul>
+                    </article>
+
+                    <article class="project reveal" data-tags="informatica">
+                        <div class="project-top">
+                            <span class="badge badge-done">Delivered</span>
+                            <span class="project-date">Jan 2017 &ndash; Jan 2019</span>
+                        </div>
+                        <h3>Univision Communications &middot; Data Warehouse</h3>
+                        <p class="project-role">Informatica Developer &middot; Capgemini</p>
+                        <p>Built an enterprise data warehouse for media analytics and content distribution reporting, with strong governance and metadata management.</p>
+                        <ul class="tags"><li>PowerCenter</li><li>Metadata Manager</li><li>Data Quality</li><li>Oracle</li></ul>
+                    </article>
+                </div>
+                <p class="empty-state" id="empty-state" hidden>No projects match this filter.</p>
             </div>
+        </section>
 
-            <div class="experience-timeline">
-                <div class="timeline-item">
-                    <div class="timeline-marker"></div>
-                    <div class="timeline-content">
-                        <h3>Senior Data Engineer</h3>
-                        <p class="company">Lyric.ai</p>
-                        <p class="date"><i class="far fa-calendar"></i> Jan 2026 - Present</p>
-                        <p class="description">Leading ELT pipeline development with Snowflake, dbt, and Airflow for scalable analytics infrastructure.</p>
+        <!-- Experience -->
+        <section class="section" id="experience" aria-labelledby="experience-title">
+            <div class="container">
+                <header class="section-head reveal">
+                    <p class="eyebrow">Journey</p>
+                    <h2 id="experience-title">Professional experience.</h2>
+                </header>
+
+                <ol class="timeline">
+                    <li class="reveal">
+                        <h3>Senior Data Engineer <span>&middot; Lyric.ai</span></h3>
+                        <p class="date"><i class="far fa-calendar" aria-hidden="true"></i> Jan 2026 &ndash; Present</p>
+                        <p>Leading ELT pipeline development with Snowflake, dbt and Airflow for scalable analytics infrastructure.</p>
+                    </li>
+                    <li class="reveal">
+                        <h3>Senior Data Engineer <span>&middot; Tailored Brands</span></h3>
+                        <p class="date"><i class="far fa-calendar" aria-hidden="true"></i> Sep 2025 &ndash; Jan 2026</p>
+                        <p>Built a semantic layer and real-time CDC pipelines for an enterprise retail analytics platform.</p>
+                    </li>
+                    <li class="reveal">
+                        <h3>Senior Data Engineer <span>&middot; Luxoft (DXC), SKF project</span></h3>
+                        <p class="date"><i class="far fa-calendar" aria-hidden="true"></i> Jul 2021 &ndash; Aug 2025</p>
+                        <p>Led the data warehouse modernisation from Sybase IQ to Snowflake, with dbt and real-time capabilities.</p>
+                    </li>
+                    <li class="reveal">
+                        <h3>Informatica Designer <span>&middot; TEKsystems</span></h3>
+                        <p class="date"><i class="far fa-calendar" aria-hidden="true"></i> Jan 2019 &ndash; Jul 2021</p>
+                        <p>Developed ETL mappings with CDC for insurance data processing systems.</p>
+                    </li>
+                    <li class="reveal">
+                        <h3>Informatica Designer / Administrator <span>&middot; Capgemini</span></h3>
+                        <p class="date"><i class="far fa-calendar" aria-hidden="true"></i> Jan 2017 &ndash; Jan 2019</p>
+                        <p>Managed an enterprise data warehouse platform with data governance and metadata management.</p>
+                    </li>
+                    <li class="reveal">
+                        <h3>Informatica Designer / Module Lead <span>&middot; Hewlett Packard</span></h3>
+                        <p class="date"><i class="far fa-calendar" aria-hidden="true"></i> Aug 2008 &ndash; Jan 2017</p>
+                        <p>Delivered end-to-end ETL solutions for major financial and healthcare clients, including HDFC, Amgen and Bank of Baroda.</p>
+                    </li>
+                </ol>
+
+                <div class="education reveal">
+                    <i class="fas fa-graduation-cap" aria-hidden="true"></i>
+                    <div>
+                        <strong>B.E. in Computer Science</strong>
+                        <span>2012</span>
                     </div>
-                </div>
-
-                <div class="timeline-item">
-                    <div class="timeline-marker"></div>
-                    <div class="timeline-content">
-                        <h3>Senior Data Engineer</h3>
-                        <p class="company">Tailored Brands</p>
-                        <p class="date"><i class="far fa-calendar"></i> Sep 2025 - Jan 2026</p>
-                        <p class="description">Built semantic layer and real-time CDC pipelines for enterprise retail analytics platform.</p>
-                    </div>
-                </div>
-
-                <div class="timeline-item">
-                    <div class="timeline-marker"></div>
-                    <div class="timeline-content">
-                        <h3>Senior Data Engineer</h3>
-                        <p class="company">Luxoft (DXC Company) - SKF Project</p>
-                        <p class="date"><i class="far fa-calendar"></i> Jul 2021 - Aug 2025</p>
-                        <p class="description">Led data warehouse migration and modernization from Sybase IQ to Snowflake with dbt and real-time capabilities.</p>
-                    </div>
-                </div>
-
-                <div class="timeline-item">
-                    <div class="timeline-marker"></div>
-                    <div class="timeline-content">
-                        <h3>Informatica Designer</h3>
-                        <p class="company">TEKsystems</p>
-                        <p class="date"><i class="far fa-calendar"></i> Jan 2019 - Jul 2021</p>
-                        <p class="description">Developed ETL mappings with CDC capabilities for insurance data processing systems.</p>
-                    </div>
-                </div>
-
-                <div class="timeline-item">
-                    <div class="timeline-marker"></div>
-                    <div class="timeline-content">
-                        <h3>Informatica Designer/Administrator</h3>
-                        <p class="company">Capgemini</p>
-                        <p class="date"><i class="far fa-calendar"></i> Jan 2017 - Jan 2019</p>
-                        <p class="description">Managed enterprise data warehouse platform with data governance and metadata management.</p>
-                    </div>
-                </div>
-
-                <div class="timeline-item">
-                    <div class="timeline-marker"></div>
-                    <div class="timeline-content">
-                        <h3>Informatica Designer / Module Lead</h3>
-                        <p class="company">Hewlett Packard</p>
-                        <p class="date"><i class="far fa-calendar"></i> Aug 2008 - Jan 2017</p>
-                        <p class="description">Delivered end-to-end ETL solutions for major financial and healthcare clients (HDFC, Amgen, Bank of Baroda).</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Certifications Section -->
-    <section class="certifications">
-        <div class="container">
-            <div class="section-header">
-                <h2>Certifications</h2>
-                <p>Professional credentials and achievements</p>
-            </div>
-
-            <div class="certs-grid">
-                <div class="cert-card">
-                    <div class="cert-icon"><i class="fas fa-award"></i></div>
-                    <h3>SnowPro Advanced: Data Engineer</h3>
-                    <p class="cert-issuer">Snowflake</p>
-                    <p class="cert-date">Aug 2025</p>
-                </div>
-
-                <div class="cert-card">
-                    <div class="cert-icon"><i class="fas fa-award"></i></div>
-                    <h3>Databricks Certified Data Engineer Associate</h3>
-                    <p class="cert-issuer">Databricks</p>
-                    <p class="cert-date">May 2025</p>
-                </div>
-
-                <div class="cert-card">
-                    <div class="cert-icon"><i class="fas fa-award"></i></div>
-                    <h3>Microsoft Certified: Fabric Data Engineer Associate</h3>
-                    <p class="cert-issuer">Microsoft</p>
-                    <p class="cert-date">Jun 2025</p>
-                </div>
-
-                <div class="cert-card">
-                    <div class="cert-icon"><i class="fas fa-award"></i></div>
-                    <h3>SnowPro Core Certified</h3>
-                    <p class="cert-issuer">Snowflake</p>
-                    <p class="cert-date">Aug 2023</p>
-                </div>
-
-                <div class="cert-card">
-                    <div class="cert-icon"><i class="fas fa-award"></i></div>
-                    <h3>Informatica PowerCenter Specialist</h3>
-                    <p class="cert-issuer">Informatica</p>
-                    <p class="cert-date">Feb 2015</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section class="contact" id="contact">
-        <div class="container">
-            <div class="section-header" style="color: white;">
-                <h2>Let's Connect</h2>
-                <p>Ready to discuss your data engineering needs?</p>
-            </div>
-
-            <div class="contact-grid">
-                <div class="contact-item">
-                    <div class="contact-icon">
-                        <i class="fas fa-envelope"></i>
-                    </div>
-                    <h3>Email</h3>
-                    <a href="mailto:pradeep.kothakota@gmail.com">pradeep.kothakota@gmail.com</a>
-                </div>
-
-                <div class="contact-item">
-                    <div class="contact-icon">
-                        <i class="fas fa-phone"></i>
-                    </div>
-                    <h3>Phone</h3>
-                    <a href="tel:+19403150446">+1 (940) 315-0446</a>
-                </div>
-
-                <div class="contact-item">
-                    <div class="contact-icon">
-                        <i class="fab fa-linkedin"></i>
-                    </div>
-                    <h3>LinkedIn</h3>
-                    <a href="https://www.linkedin.com/in/pradeepkothakota/" target="_blank">Connect on LinkedIn</a>
                 </div>
             </div>
+        </section>
 
-            <div class="contact-cta">
-                <p><strong>Visa Status:</strong> H1B (Valid until Nov 15, 2026)</p>
+        <!-- Certifications -->
+        <section class="section section-alt" id="certifications" aria-labelledby="cert-title">
+            <div class="container">
+                <header class="section-head reveal">
+                    <p class="eyebrow">Credentials</p>
+                    <h2 id="cert-title">Certifications.</h2>
+                </header>
+
+                <div class="cert-grid">
+                    <article class="cert reveal">
+                        <i class="fas fa-award" aria-hidden="true"></i>
+                        <div>
+                            <h3>SnowPro Advanced: Data Engineer</h3>
+                            <p>Snowflake &middot; Aug 2025</p>
+                        </div>
+                    </article>
+                    <article class="cert reveal">
+                        <i class="fas fa-award" aria-hidden="true"></i>
+                        <div>
+                            <h3>Databricks Certified Data Engineer Associate</h3>
+                            <p>Databricks &middot; May 2025</p>
+                        </div>
+                    </article>
+                    <article class="cert reveal">
+                        <i class="fas fa-award" aria-hidden="true"></i>
+                        <div>
+                            <h3>Microsoft Certified: Fabric Data Engineer Associate</h3>
+                            <p>Microsoft &middot; Jun 2025</p>
+                        </div>
+                    </article>
+                    <article class="cert reveal">
+                        <i class="fas fa-award" aria-hidden="true"></i>
+                        <div>
+                            <h3>SnowPro Core Certified</h3>
+                            <p>Snowflake &middot; Aug 2023</p>
+                        </div>
+                    </article>
+                    <article class="cert reveal">
+                        <i class="fas fa-award" aria-hidden="true"></i>
+                        <div>
+                            <h3>Informatica PowerCenter Specialist</h3>
+                            <p>Informatica &middot; Feb 2015</p>
+                        </div>
+                    </article>
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Footer -->
-    <footer>
-        <div class="container">
-            <p>&copy; 2026 Pradeepkumar Kothakota. Senior Data Engineer. All rights reserved.</p>
-            <p class="footer-subtitle">Specializing in Cloud Data Platforms | Snowflake | dbt | IDMC</p>
+        <!-- Contact -->
+        <section class="section contact" id="contact" aria-labelledby="contact-title">
+            <div class="container">
+                <div class="contact-box reveal">
+                    <p class="eyebrow">Contact</p>
+                    <h2 id="contact-title">Let's build something reliable together.</h2>
+                    <p class="lead">Open to data engineering roles, consulting and migration projects.</p>
+
+                    <div class="contact-actions">
+                        <a class="btn btn-primary" href="mailto:pradeep.kothakota@gmail.com"><i class="fas fa-envelope" aria-hidden="true"></i> Email me</a>
+                        <a class="btn btn-ghost" href="tel:+19403150446"><i class="fas fa-phone" aria-hidden="true"></i> +1 (940) 315-0446</a>
+                        <a class="btn btn-ghost" href="https://www.linkedin.com/in/pradeepkothakota/" target="_blank" rel="noopener"><i class="fab fa-linkedin" aria-hidden="true"></i> LinkedIn</a>
+                        <button class="btn btn-ghost" type="button" id="copy-email"><i class="far fa-copy" aria-hidden="true"></i> <span>Copy email</span></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <p>&copy; 2026 Pradeep Kothakota. All rights reserved.</p>
+            <p>Snowflake &middot; dbt &middot; IDMC &middot; Cloud Data Platforms</p>
         </div>
     </footer>
 
