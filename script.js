@@ -50,7 +50,7 @@ const observer = new IntersectionObserver((entries) => {
     });
 }, observerOptions);
 
-document.querySelectorAll('.skill-category, .timeline-item, .cert-card, .edu-card').forEach(el => {
+document.querySelectorAll('.skill-category, .project-card, .timeline-item, .cert-card, .edu-card').forEach(el => {
     el.style.opacity = '0';
     el.style.transform = 'translateY(20px)';
     el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
