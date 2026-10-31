@@ -577,9 +577,14 @@ p { margin: 0 0 1em; }
 }
 .timeline p:last-child { color: var(--muted); margin: 0; }
 
-.education {
+.education-list {
     margin-top: 48px;
-    display: inline-flex;
+    display: grid;
+    gap: 16px;
+    max-width: 820px;
+}
+.education {
+    display: flex;
     align-items: center;
     gap: 16px;
     background: var(--surface);
